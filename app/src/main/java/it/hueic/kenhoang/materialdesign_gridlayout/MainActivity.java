@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View view) {
                     if (cardView.getCardBackgroundColor().getDefaultColor() == -1) {
                         //Change background Color
-                        cardView.setCardBackgroundColor(Color.parseColor("#rr6r00"));
+                        cardView.setCardBackgroundColor(Color.parseColor("#BBDEFB"));
                         //Here you can replace Toast with start new Activity code
                         Toast.makeText(MainActivity.this, "State: true", Toast.LENGTH_SHORT).show();
                     } else {
